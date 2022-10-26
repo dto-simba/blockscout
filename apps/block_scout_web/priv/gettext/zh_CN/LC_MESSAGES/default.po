@@ -2701,7 +2701,7 @@ msgstr "总交易费用。"
 #: lib/block_scout_web/templates/chain/show.html.eex:109
 #, elixir-autogen, elixir-format
 msgid "Total transactions"
-msgstr "总交易数量"
+msgstr "总交易数"
 
 #: lib/block_scout_web/templates/account/tag_transaction/form.html.eex:11
 #: lib/block_scout_web/templates/account/tag_transaction/index.html.eex:23
