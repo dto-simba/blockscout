@@ -129,7 +129,8 @@ defmodule BlockScoutWeb.LayoutView do
     if release_link == nil do
       ""
     else
-      html_escape({:safe, "<a href=\"#{release_link}\" class=\"footer-link\" target=\"_blank\">#{version}</a>"})
+#      html_escape({:safe, "<a href=\"#{release_link}\" class=\"footer-link\" target=\"_blank\">#{version}</a>"})
+      html_escape({:safe, "<a href=\"#\" class=\"footer-link\" target=\"_blank\">#{version}</a>"})
     end
   end
 
