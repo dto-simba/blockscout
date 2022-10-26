@@ -10,6 +10,7 @@
 				data-display-token-icons="<%= System.get_env("DISPLAY_TOKEN_ICONS") %>"
 				type="text"
 				tabindex="1"
+				placeholder='<%= gettext("Search by address, token symbol name, transaction hash, or block number") %>'
 			>
 		</div>
 		<div class="input-group-append left">
