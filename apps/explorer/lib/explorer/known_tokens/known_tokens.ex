@@ -40,7 +40,7 @@ defmodule Explorer.KnownTokens do
   # Callback for errored fetch
   @impl GenServer
   def handle_info({_ref, {:error, reason}}, state) do
-    Logger.warn(fn -> "Failed to get known tokens with reason '#{reason}'." end)
+    Logger.debug(fn -> "Failed to get known tokens with reason '#{reason}'." end)
 
     fetch_known_tokens()
 
