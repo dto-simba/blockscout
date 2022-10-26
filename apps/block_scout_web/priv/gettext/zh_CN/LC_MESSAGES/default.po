@@ -16,12 +16,14 @@ msgstr ""
 msgid "%{count} token"
 msgid_plural "%{count} tokens"
 msgstr[0] "%{count} 代币数"
+msgstr[1] "%{count} 代币数"
 
 #: lib/block_scout_web/templates/block/_tile.html.eex:29
 #, elixir-autogen, elixir-format
 msgid "%{count} transaction"
 msgid_plural "%{count} transactions"
-msgstr[0] "%{count} 交易量"
+msgstr[0] "%{count}交易量"
+msgstr[1] "%{count}交易量"
 
 #: lib/block_scout_web/templates/common_components/_minimal_proxy_pattern.html.eex:9
 #, elixir-autogen, elixir-format
