@@ -1291,7 +1291,7 @@ msgstr "交易使用的燃气"
 #: lib/block_scout_web/templates/chain/gas_price_oracle_legend_item.html.eex:18
 #, elixir-autogen, elixir-format
 msgid "Gas tracker"
-msgstr "燃气溯源"
+msgstr "燃气用量"
 
 #: lib/block_scout_web/templates/address/overview.html.eex:240
 #, elixir-autogen, elixir-format
@@ -2805,7 +2805,7 @@ msgstr "Twitter"
 #: lib/block_scout_web/templates/layout/app.html.eex:49
 #, elixir-autogen, elixir-format
 msgid "Tx/day"
-msgstr "Tx/天"
+msgstr "交易/天"
 
 #: lib/block_scout_web/templates/log/_data_decoded_view.html.eex:5
 #: lib/block_scout_web/templates/transaction/_decoded_input_body.html.eex:22
