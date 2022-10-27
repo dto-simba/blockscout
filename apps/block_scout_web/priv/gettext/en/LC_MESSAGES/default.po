@@ -312,7 +312,7 @@ msgstr "应用"
 #: lib/block_scout_web/templates/chain/gas_price_oracle_legend_item.html.eex:21
 #, elixir-autogen, elixir-format
 msgid "Average"
-msgstr "平均"
+msgstr "一般"
 
 #: lib/block_scout_web/templates/chain/show.html.eex:100
 #, elixir-autogen, elixir-format
@@ -1202,7 +1202,7 @@ msgstr "无法解码日志数据。"
 #: lib/block_scout_web/templates/chain/gas_price_oracle_legend_item.html.eex:22
 #, elixir-autogen, elixir-format
 msgid "Fast"
-msgstr "快速地"
+msgstr "快"
 
 #: lib/block_scout_web/templates/address/overview.html.eex:248
 #, elixir-autogen, elixir-format
@@ -2170,7 +2170,7 @@ msgstr "块的大小（以字节为单位）。"
 #: lib/block_scout_web/templates/chain/gas_price_oracle_legend_item.html.eex:20
 #, elixir-autogen, elixir-format
 msgid "Slow"
-msgstr "减缓"
+msgstr "慢"
 
 #: lib/block_scout_web/templates/account/public_tags_request/index.html.eex:21
 #, elixir-autogen, elixir-format
