@@ -89,7 +89,7 @@ msgstr "（等待内部交易的状态）"
 msgid "(query)"
 msgstr "（查询）"
 
-#: lib/block_scout_web/templates/layout/app.html.eex:224
+#: lib/block_scout_web/templates/layout/app.html.eex:225
 #, elixir-autogen, elixir-format
 msgid "- We're indexing this chain right now. Some of the counts may be inaccurate."
 msgstr "- 我们现在正在索引这条链。 有些计数可能不准确。"
@@ -3280,3 +3280,8 @@ msgstr "库"
 #, elixir-autogen, elixir-format
 msgid "Contract was precompiled and created at genesis or contract creation transaction is missing"
 msgstr "合约在生成时被预编译并创建，或者合约创建事务丢失"
+
+#: lib/block_scout_web/templates/layout/app.html.eex:50
+#, elixir-autogen, elixir-format
+msgid "Daily transactions"
+msgstr "日交易量"
