@@ -297,7 +297,7 @@ msgstr "金额"
 #: lib/block_scout_web/templates/block/overview.html.eex:236
 #, elixir-autogen, elixir-format
 msgid "Amount of distributed reward. Miners receive a static block reward + Tx fees + uncle fees."
-msgstr "分配的奖励金额。 矿工获得静态区块奖励 + Tx 费用 + 叔父区块费用。"
+msgstr "分配的奖励金额。 矿工获得静态区块奖励 + 交易燃气消耗 + 叔父区块燃气消耗。"
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:15
 #, elixir-autogen, elixir-format
@@ -365,7 +365,7 @@ msgstr "余额"
 #: lib/block_scout_web/templates/block/overview.html.eex:207
 #, elixir-autogen, elixir-format
 msgid "Base Fee per Gas"
-msgstr "燃气基本耗费"
+msgstr "基本燃气耗"
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:5
 #: lib/block_scout_web/templates/api_docs/index.html.eex:5
@@ -471,7 +471,7 @@ msgstr "MH-CHAIN 是用于检查和分析基于 EVM 的区块链的工具。 以
 #: lib/block_scout_web/templates/block/overview.html.eex:216
 #, elixir-autogen, elixir-format
 msgid "Burnt Fees"
-msgstr "燃烧小费"
+msgstr "燃烧燃料"
 
 #: lib/block_scout_web/templates/address_token/overview.html.eex:65
 #, elixir-autogen, elixir-format
@@ -1207,7 +1207,7 @@ msgstr "快"
 #: lib/block_scout_web/templates/address/overview.html.eex:248
 #, elixir-autogen, elixir-format
 msgid "Fetching gas used..."
-msgstr "获取燃气费用于..."
+msgstr "获取燃气消耗用于..."
 
 #: lib/block_scout_web/templates/tokens/overview/_details.html.eex:112
 #, elixir-autogen, elixir-format
@@ -1296,7 +1296,7 @@ msgstr "燃气用量"
 #: lib/block_scout_web/templates/address/overview.html.eex:240
 #, elixir-autogen, elixir-format
 msgid "Gas used by the address."
-msgstr "地址使用的燃气费用。"
+msgstr "地址使用的燃气消耗。"
 
 #: lib/block_scout_web/templates/block/overview.html.eex:60
 #, elixir-autogen, elixir-format
@@ -1555,12 +1555,12 @@ msgstr "市值"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:382
 #, elixir-autogen, elixir-format
 msgid "Max Fee per Gas"
-msgstr "最高燃气费"
+msgstr "最高燃气消耗"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:392
 #, elixir-autogen, elixir-format
 msgid "Max Priority Fee per Gas"
-msgstr "优先最高燃气费"
+msgstr "优先最高燃气消耗"
 
 #: lib/block_scout_web/views/transaction_view.ex:320
 #, elixir-autogen, elixir-format
@@ -1570,7 +1570,7 @@ msgstr "最大"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:372
 #, elixir-autogen, elixir-format
 msgid "Maximum gas amount approved for the transaction."
-msgstr "为交易批准的最燃气费。"
+msgstr "为交易批准的最燃气消耗。"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:381
 #, elixir-autogen, elixir-format
@@ -2266,7 +2266,7 @@ msgstr "成功"
 #: lib/block_scout_web/templates/transaction/_tile.html.eex:52
 #, elixir-autogen, elixir-format
 msgid "TX Fee"
-msgstr "交易费用"
+msgstr "燃气消耗"
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:30
 #, elixir-autogen, elixir-format
@@ -2685,7 +2685,7 @@ msgstr "总供应量"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:337
 #, elixir-autogen, elixir-format
 msgid "Total transaction fee."
-msgstr "总交易费用。"
+msgstr "燃气总消耗。"
 
 #: lib/block_scout_web/templates/chain/show.html.eex:109
 #, elixir-autogen, elixir-format
@@ -2713,7 +2713,7 @@ msgstr "交易 %{transaction}, %{subnetwork} %{transaction}"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:412
 #, elixir-autogen, elixir-format
 msgid "Transaction Burnt Fee"
-msgstr "交易燃烧小费"
+msgstr "交易燃烧消耗"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:50
 #, elixir-autogen, elixir-format
@@ -2723,7 +2723,7 @@ msgstr "交易详情"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:338
 #, elixir-autogen, elixir-format
 msgid "Transaction Fee"
-msgstr "手续费"
+msgstr "交易燃气消耗"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:80
 #, elixir-autogen, elixir-format
@@ -2858,7 +2858,7 @@ msgstr "更新"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:391
 #, elixir-autogen, elixir-format
 msgid "User defined maximum fee (tip) per unit of gas paid to validator for transaction prioritization."
-msgstr "用户为交易优先级支付给验证者的每单位气体的最高费用（小费）。"
+msgstr "用户为交易优先级支付给验证者的每单位气体的最高费用（燃气消耗）。"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:401
 #, elixir-autogen, elixir-format
@@ -3144,7 +3144,7 @@ msgstr "为这笔交易而烧毁。 等于：每燃气的区块基础费用 * �
 #: lib/block_scout_web/templates/block/overview.html.eex:215
 #, elixir-autogen, elixir-format
 msgid "burned from transactions included in the block (Base fee (per unit of gas) * Gas Used)."
-msgstr "从区块中包含的交易中燃烧（基本费用（每单位燃气）* 使用的天然气）。"
+msgstr "从区块中包含的交易中燃烧（基本费用（每单位燃气）* 使用的燃料）。"
 
 #: lib/block_scout_web/templates/address_contract/index.html.eex:27
 #, elixir-autogen, elixir-format

@@ -310,7 +310,7 @@ msgstr "金额"
 #: lib/block_scout_web/templates/block/overview.html.eex:236
 #, elixir-autogen, elixir-format
 msgid "Amount of distributed reward. Miners receive a static block reward + Tx fees + uncle fees."
-msgstr "分配的奖励金额。 矿工获得静态区块奖励 + Tx 费用 + 叔父区块费用。"
+msgstr "分配的奖励金额。 矿工获得静态区块奖励 + 交易消耗 + 叔父区块消耗。"
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:15
 #, elixir-autogen, elixir-format
@@ -2279,7 +2279,7 @@ msgstr "成功"
 #: lib/block_scout_web/templates/transaction/_tile.html.eex:52
 #, elixir-autogen, elixir-format
 msgid "TX Fee"
-msgstr "交易费用"
+msgstr "燃气消耗"
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:30
 #, elixir-autogen, elixir-format
@@ -2698,7 +2698,7 @@ msgstr "总供应量"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:337
 #, elixir-autogen, elixir-format
 msgid "Total transaction fee."
-msgstr "总交易费用。"
+msgstr "燃气总消耗。"
 
 #: lib/block_scout_web/templates/chain/show.html.eex:109
 #, elixir-autogen, elixir-format
@@ -2726,7 +2726,7 @@ msgstr "交易 %{transaction}, %{subnetwork} %{transaction}"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:412
 #, elixir-autogen, elixir-format
 msgid "Transaction Burnt Fee"
-msgstr "交易燃烧小费"
+msgstr "交易燃烧燃气"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:50
 #, elixir-autogen, elixir-format
@@ -2736,7 +2736,7 @@ msgstr "交易详情"
 #: lib/block_scout_web/templates/transaction/overview.html.eex:338
 #, elixir-autogen, elixir-format
 msgid "Transaction Fee"
-msgstr "手续费"
+msgstr "燃气消耗"
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:80
 #, elixir-autogen, elixir-format
