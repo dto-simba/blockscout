@@ -312,7 +312,7 @@ msgstr "应用"
 #: lib/block_scout_web/templates/chain/gas_price_oracle_legend_item.html.eex:21
 #, elixir-autogen, elixir-format
 msgid "Average"
-msgstr "一般"
+msgstr "中"
 
 #: lib/block_scout_web/templates/chain/show.html.eex:100
 #, elixir-autogen, elixir-format
