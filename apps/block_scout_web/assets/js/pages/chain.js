@@ -179,7 +179,6 @@ const elements = {
       chart.updateMarketHistory(state.availableSupply, state.marketHistoryData)
 
       if (!chart || (JSON.stringify(oldState.transactionStats) === JSON.stringify(state.transactionStats))) return
-      console.info("----------------------------------------------------2")
       chart.updateTransactionHistory(state.transactionStats)
     }
   },
