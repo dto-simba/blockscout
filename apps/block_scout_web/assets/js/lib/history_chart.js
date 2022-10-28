@@ -269,10 +269,8 @@ class MarketHistoryChart {
     } else if (Object.keys(dataConfig).join() === 'market') {
       chartTitle = marketChartTitle
     }
-    alert("----------------------------txChartTitle:"+txChartTitle)
-    alert("config.options.plugins.title.text1:"+config.options.plugins.title.text)
+
     config.options.plugins.title.text = chartTitle
-    alert("config.options.plugins.title.text2:"+config.options.plugins.title.text)
 
     config.data.datasets = [this.price, this.marketCap, this.numTransactions]
 
